@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="images/Logo.png" class="logo" alt=""></a>
+        <div>
+            <h1>JAH Clothing</h1>
+        </div>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li class="nav-cart">
+                    <a class="cart" href="cart.html">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <div class="cartAmount">0</div>
+                    </a>
+                </li>
+    
+                <span class="menu">
+                    <ul>
+                        <li class="active"><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                            <div class="submenu">
+                                <ul>
+                                    <li><a href="login.html">Log In</a></li>
+                                    <li><a href="register.html">Register</a></li>
+                                </ul>
+                            </div>
+    
+                        </li>
+    
+                    </ul>
+                </span>
+    
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="viewproduct">
+            <div class="product-small-img">
+                <img src="images/products/pant1/p1.webp" onclick="displayImg(this)">
+                <img src="images/products/pant1/p2.webp" onclick="displayImg(this)">
+                <img src="images/products/pant1/p3.webp" onclick="displayImg(this)">
+            </div>
+            <div class="img-container">
+                <img id="imageBox" src="images/products/pant1/p1.webp">
+            </div>
+            <div class="prod-details">
+                <h2>Cargo Pants</h2>
+                <p>Stylish Straight Fit Pants</p>
+                <h3>Description</h3>
+                <p>Color:</p>
+                <p>Style:</p>
+                <p>Pattern:</p>
+                <p>Details:</p>
+                <p>Type:</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        function displayImg(smallImg){
+            var fullImg = document.getElementById("imageBox");
+            fullImg.src = smallImg.src;
+        }
+    </script>
+ 
+  <script src="main.js"></script>
+</body>
+</html>

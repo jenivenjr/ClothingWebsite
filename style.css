@@ -177,7 +177,28 @@ body{
 
 
 /*Cart */
-.nav-cart
+.nav-cart{
+    justify-content: space-between;
+    display: flex;
+}
+
+.cart{
+    position: relative;
+    background-color: rgb(202, 149, 149);
+    font-size: 70px;
+    border-radius: 4px;
+    padding: 15px 15px;
+}
+
+.cartAmount{
+    position: absolute;
+    background-color: red;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border-radius: 3px;
+}
+
 
 /* Home */
 

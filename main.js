@@ -23,6 +23,11 @@ let featuredProdItemsData = [{
 },
 ];
 
+let basket=[{
+    id:"dfd",
+    item:1
+}];
+
 let newProdsItemData =[{
     id: "111",
     brand:"Kathrada Clothing",

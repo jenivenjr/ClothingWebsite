@@ -8,18 +8,24 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
     <section id="header">
         <a href="#"><img src="images/Logo.png" class="logo" alt="" ></a>
-
+        <div><h1>JAH Clothing</h1></div>
         <div>
             <ul id="navbar">
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li class="nav-cart">
+                    <a class="cart" href="cart.html">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <div class="cartAmount">0</div>
+                   </a>
+                </li>
                 
                 <span class="menu">
                     <ul>
@@ -48,54 +54,66 @@
         <button><a href="">Shop Now</a></button>
     </section>
 
-    <section id="option" class="section-p1">
-        <div class="opt-box">
-            <img src="images/options/f2.png" alt="">
-            <h6>Online Order</h6>
+    <section id="featured-product"></section>
+    <div id="shop" class="shop">
+        <div class="item">
+            <img class="prod-img" src="images/products/pant1/p1.webp" alt="">
+            <div class="details">
+                <h5>Tshirt Floral</h5>
+                <div class="price-quantity">
+                    <h4>Rs 500</h4>
+                    <a class="prodcart" href="productview.html"><i class="fa fa-shopping-cart " aria-hidden="true"></i></a>
+                </div>
+                
+            </div>
         </div>
-        <div class="opt-box">
-            <img src="images/options/f1.png" alt="">
-            <h6>Free Delivery</h6>
+        <div class="item">
+            <img class="prod-img"  src="images/products/pant2/p1.webp" alt="">
+            <div class="details">
+                <h5>Tshirt Floral</h5>
+                <div class="price-quantity">
+                    <h4>Rs 500</h4>
+                    <a class="prodcart" href="productview.html"><i class="fa fa-shopping-cart " aria-hidden="true"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="opt-box">
-            <img src="images/options/f3.png" alt="">
-            <h6>Save Money</h6>
+        <div class="item">
+            <img class="prod-img"  src="images/products/tshirt1/t1.webp" alt="">
+            <div class="details">
+                <h5>Tshirt Floral</h5>
+                <div class="price-quantity">
+                    <h4>Rs 500</h4>
+                    <a class="prodcart" href="productview.html"><i class="fa fa-shopping-cart " aria-hidden="true"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="opt-box">
-            <img src="images/options/f4.png" alt="">
-            <h6>Promo Deals</h6>
+        <div class="item">
+            <img class="prod-img" src="images/products/dress1/d1.webp" alt="">
+            <div class="details">
+                <h5>Tshirt Floral</h5>
+                <div class="price-quantity">
+                    <h4>Rs 500</h4>
+                    <a class="prodcart" href="productview.html"><i class="fa fa-shopping-cart " aria-hidden="true"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="opt-box">
-            <img src="images/options/f5.png" alt="">
-            <h6>Customer Satisfaction</h6>
-        </div>
-        <div class="opt-box">
-            <img src="images/options/f6.png" alt="">
-            <h6>Customer Support</h6>
-        </div>
-    </section>
+    </div>
 
-    <!-- Featured Products -->
-    <section id="products1" class="section-p1">
-        <h2>Featured Products</h2>
-        <p>Summer Collection Floral Patterns</p>
-        <div id="featured-prod" class="product-container">
-
-        </div>
-    </section>
-
-    <section id="banner" class="section-m1">
-    <h2>Up to <span>50% Off</span> - All Denims</h2>
-    <button class="normal">Explore more</button>
-    </section>
-
-    <section id="products1" class="section-p1">
-    <h2>New Arrivals</h2>
-        <p>Trendy Models</p>
-        <div id="new-prod" class="product-container">
-        
-        </div>
-    </section>
+   
+    <hr class="hr">
+    <footer class="footer">
+        <H2>JAH Clothing</H2>
+        <h3>Your Fashion Destination</h3>
+        <ul>
+            <li>ABOUT US</li>
+            <li>OUR POLICIES</li>
+            <li>TERMS & CONDITION</li>
+            <li>SIZE CHARTS</li>
+            <li>CONTACT</li>
+        </ul>
+    </footer>
     <script src="main.js"></script>
 </body>
+
+
 </html>

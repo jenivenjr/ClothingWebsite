@@ -69,9 +69,9 @@
                 <p>Type:</p>
                 <div class="prod-qty-action">
                     <div class="qty-flex">
-                        <div><i class="bi bi-dash-lg"></i></div>
+                        <div><i class="bi bi-dash-lg minus"></i></div>
                         <input type="number" name="prod-qty" id="prod-qty" class="prod-qty" maxlength="10S" value=1>
-                        <div ><i class="bi bi-plus-lg"></i></div>
+                        <div ><i class="bi bi-plus-lg plus"></i></div>
                     </div>
                     
                     <div class="actions">
@@ -83,6 +83,25 @@
             </div>
         </div>
     </section>
+    <script>
+        const plus = document.querySelector(".plus");
+        minus = document.querySelector(".minus");
+        num = document.querySelector(".prod-qty").value;
+
+        plus.addEventListener("click",()=>{
+            document.querySelector(".prod-qty").value++;
+        });
+
+        minus.addEventListener("click",()=>{
+            if(document.querySelector(".prod-qty").value>1){
+                document.querySelector(".prod-qty").value--;
+            }
+            
+        })
+
+
+    </script>
+
     <script>
         function displayImg(smallImg){
             var fullImg = document.getElementById("imageBox");

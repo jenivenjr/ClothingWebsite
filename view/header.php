@@ -3,7 +3,7 @@
 
     <div>
         <ul id="navbar">
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a class="active" href="index.php">Home</a></li>
             <li><a href="shop.html">Shop</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact Us</a></li>
@@ -14,7 +14,7 @@
                     <li class="active"><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
                         <div class="submenu">
                             <ul>
-                                <li><a href="login.html">Log In</a></li>
+                                <li><a href="login.php">Log In</a></li>
                                 <li><a href="register.html">Register</a></li>
                             </ul>
                         </div>

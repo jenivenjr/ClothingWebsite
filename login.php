@@ -1,8 +1,3 @@
-<?php 
-    $email = $_POST["email"];
-    $password = $_POST["password"];
-    echo htmlspecialchars($email.", ".$password) 
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,35 +33,7 @@
     
 </body>
 </html>
-<section id="header">
-    <a href="#"><img src="images/Logo.png" class="logo" alt=""></a>
-
-    <div>
-        <ul id="navbar">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
-
-            <span class="menu">
-                <ul>
-                    <li class="active"><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
-                        <div class="submenu">
-                            <ul>
-                                <li><a href="login.html">Log In</a></li>
-                                <li><a href="register.html">Register</a></li>
-                            </ul>
-                        </div>
-
-                    </li>
-
-                </ul>
-            </span>
-
-        </ul>
-    </div>
-</section>
+    <?php include('./view/header.php');?>
 <div class="main_container">
     <!-- Animated circles -->
     <span class="animate" style="--count:5;"></span>
@@ -103,13 +70,14 @@
                 <i class="fa fa-lock" aria-hidden="true"></i>
             </span>
         </div>
-        
+
         <!-- submit button -->
         <button class="btn1" id="myBtn" formmethod="post" type="submit">Log In</button>
         <p>Not a member? <a style="color: blue;" href="">Sign Up Now</a></p>
 
     </form>
 </div>
+<?php include("./view/footer.php")?>
 
 
 

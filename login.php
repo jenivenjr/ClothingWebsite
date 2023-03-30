@@ -34,6 +34,7 @@
 </body>
 </html>
     <?php include('./view/header.php');?>
+    
 <div class="main_container">
     <!-- Animated circles -->
     <span class="animate" style="--count:5;"></span>

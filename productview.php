@@ -12,42 +12,7 @@
 </head>
 <body>
 
-    <section id="header">
-        <a href="#"><img src="images/Logo.png" class="logo" alt=""></a>
-        <div>
-            <h1>JAH Clothing</h1>
-        </div>
-        <div>
-            <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li class="nav-cart">
-                    <a class="cart" href="cart.html">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                        <div class="cartAmount">0</div>
-                    </a>
-                </li>
-    
-                <span class="menu">
-                    <ul>
-                        <li class="active"><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
-                            <div class="submenu">
-                                <ul>
-                                    <li><a href="login.php">Log In</a></li>
-                                    <li><a href="register.html">Register</a></li>
-                                </ul>
-                            </div>
-    
-                        </li>
-    
-                    </ul>
-                </span>
-    
-            </ul>
-        </div>
-    </section>
+   <?php include("./view/header.php")?>
     <section>
         <div class="viewproduct">
             <div class="product-small-img">
@@ -117,7 +82,9 @@
             fullImg.src = smallImg.src;
         }
     </script>
- 
+
+
+    <?php include("./view/footer.php") ?>
   <script src="main.js"></script>
 </body>
 </html>

@@ -29,7 +29,7 @@
                 <h5>Tshirt Floral</h5>
                 <div class="price-quantity">
                     <h4>Rs 500</h4>
-                    <a class="prodcart" href="productview.html"><i class="fa fa-shopping-cart " aria-hidden="true"></i></a>
+                    <a class="prodcart" href="productview.php"><i class="fa fa-shopping-cart " aria-hidden="true"></i></a>
                 </div>
                 
             </div>
@@ -40,7 +40,7 @@
                 <h5>Tshirt Floral</h5>
                 <div class="price-quantity">
                     <h4>Rs 500</h4>
-                    <a class="prodcart" href="productview.html"><i class="fa fa-shopping-cart " aria-hidden="true"></i></a>
+                    <a class="prodcart" href="productview.php"><i class="fa fa-shopping-cart " aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
                 <h5>Tshirt Floral</h5>
                 <div class="price-quantity">
                     <h4>Rs 500</h4>
-                    <a class="prodcart" href="productview.html"><i class="fa fa-shopping-cart " aria-hidden="true"></i></a>
+                    <a class="prodcart" href="productview.php"><i class="fa fa-shopping-cart " aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
                 <h5>Tshirt Floral</h5>
                 <div class="price-quantity">
                     <h4>Rs 500</h4>
-                    <a class="prodcart" href="productview.html"><i class="fa fa-shopping-cart " aria-hidden="true"></i></a>
+                    <a class="prodcart" href="productview.php"><i class="fa fa-shopping-cart " aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>

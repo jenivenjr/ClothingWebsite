@@ -1,6 +1,8 @@
 <section id="header">
     <a href="#"><img src="images/Logo.png" class="logo" alt=""></a>
-
+    <div>
+        <h1>JAH Clothing</h1>
+    </div>
     <div>
         <ul id="navbar">
             <li><a class="active" href="index.php">Home</a></li>

@@ -1,3 +1,9 @@
+<?php 
+    $email = $_POST["email"];
+    $password = $_POST["password"];
+    echo htmlspecialchars($email.", ".$password) 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,30 +85,27 @@
 
 
     <!--Form -->
-    <form action="" class="login_form">
+    <form action="<?php echo $_SERVER["PHP_SELF"]?>" class="login_form" method="get">
             <h1 class="login_form_">Sign In</h1> <!-- Title -->
-
-
-
         <!-- Enter email address -->
         <div class="group">
-            <input type="text" name="" required>
+            <input type="text" name="email" required>
             <label>Email Address</label>
             <span class="icon">
                 <i class="fa fa-envelope"></i> <!-- mail icon -->
             </span>
         </div>
-        <!-- Enter email address -->
+        <!-- Enter Password -->
         <div class="group">
-            <input type="password" name="" required>
+            <input type="password" name="password" required>
             <label>Password</label>
             <span class="icon">
                 <i class="fa fa-lock" aria-hidden="true"></i>
             </span>
         </div>
-
+        
         <!-- submit button -->
-        <button class="btn1" id="myBtn" type="submit">Log In</button>
+        <button class="btn1" id="myBtn" formmethod="post" type="submit">Log In</button>
         <p>Not a member? <a style="color: blue;" href="">Sign Up Now</a></p>
 
     </form>

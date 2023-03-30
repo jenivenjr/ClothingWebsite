@@ -83,24 +83,33 @@
             </div>
         </div>
     </section>
-    <script>
-        const plus = document.querySelector(".plus");
-        minus = document.querySelector(".minus");
-        num = document.querySelector(".prod-qty").value;
+    <section class="cart-container content-section">
+        <h2 class="cart-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="images/products/dress1/d1.webp" alt="" width="100" height="100">
+                    <span class="cart-item-title">Dress</span>
+                </div>
+                <span class="cart-price cart-column">Rs 500</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" value="1">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
 
-        plus.addEventListener("click",()=>{
-            document.querySelector(".prod-qty").value++;
-        });
-
-        minus.addEventListener("click",()=>{
-            if(document.querySelector(".prod-qty").value>1){
-                document.querySelector(".prod-qty").value--;
-            }
-            
-        })
-
-
-    </script>
+    </section>
 
     <script>
         function displayImg(smallImg){
